@@ -1,20 +1,12 @@
-import { ThemeProvider } from 'styled-components';
-import { UserDataContextProvider } from './hooks/useUserData';
-import { Home } from './Pages/Home';
-import GlobalStyles from './styles/global';
-import theme from './styles/theme';
+import { TaskList } from './components/TaskList';
+import { Header } from './components/Header';
+import './styles/global.scss';
 
-function App() {
+export function App() {
   return (
-    <UserDataContextProvider>
-      <ThemeProvider theme={theme}>
-        <div className="App">
-          <GlobalStyles />
-          <Home />
-        </div>
-      </ThemeProvider>
-    </UserDataContextProvider>
+    <>
+      <Header />
+      <TaskList />
+    </>
   );
 }
-
-export default App;

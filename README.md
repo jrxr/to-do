@@ -1,33 +1,58 @@
-# Generic social media page
+<p align="center">
+  <img alt="To.do" src=".github/logo.png" width="160px">
+</p>
 
-In this project, i reproduce a social media page with basics interactions.
+<p align="center">
 
-To run this project, you need clone this repo and run this code in yout local folder.
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">
+</p>
 
-### `yarn start`
+<h1 align="center">
+    <img alt="to.do" src=".github/cover.png" />
+</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-</br>
+## 🧪 Tecnologias
 
-### Tech's used
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [x] ReactJS
-- [x] Typescript
-- [x] ESlint
-- [x] Prettier
-      </br>
+- [React](https://reactjs.org)
+- [Scss](https://sass-lang.com/guide/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-### Preview project
+## 🚀 Como executar
 
-<img alt="Project Preview" title="Project Preview" src="./src/assets/readme.png" />
+Clone o projeto e acesse a pasta do mesmo.
 
-</br>
-</br>
-</br>
-</br>
+```bash
+$ git clone https://github.com/jrxr/to.do.git
+$ cd to.do
+```
 
-Thanks for comming!
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn
+# Iniciar o projeto
+$ yarn dev
+```
+O app estará disponível no seu browser pelo endereço http://localhost:8080.
+
+
+## 💻 Projeto
+
+Essa será uma aplicação onde o seu principal objetivo é uma pequena aplicação de atividades a fazer.
+
+- Adicionar uma nova tarefa
+- Remover uma tarefa
+- Marcar e desmarcar uma tarefa como concluída
+
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com 💜 by Agacy Júnior 💻
